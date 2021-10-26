@@ -1,3 +1,99 @@
 body {
-    background-color: grey;
+    background-color: #462d44;
+}
+
+#container{
+    background-color: #fff491;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+header {
+    padding-top: 20px;
+    border-radius: 20px 20px 0 0;
+    background-color: gray;
+}
+
+header img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: #50B4F2;
+}
+
+nav {
+    background-color: #ff7300;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #fff491;
+    height: 40px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color: #462d44;
+    text-decoration: none;
+    border-radius: 10 10 0 0;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #462d44;
+    color: #fff491;
+}
+
+main {
+    background-color: #fff491;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #462d44;
+    font-size: 2em;
+}
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+main h3 {
+    text-align: center;
+    color: #462d44;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New';
+    font: Verdana;
+}
+
+footer {
+    background-color: #fff491;
+    padding: 60px 0;
+    color: #ff7300;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active {
+    background-color: #462d44;
+    color: #fff491;
 }
