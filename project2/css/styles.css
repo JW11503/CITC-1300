@@ -43,7 +43,7 @@ nav a {
     line-height: 50px;
     color: #462d44;
     text-decoration: none;
-    border-radius: 10 10;
+    border-radius: 10px 10px 0px 0px;
     margin: 0 10px;
 }
 
